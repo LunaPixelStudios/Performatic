@@ -1,0 +1,183 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -71
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=504306%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=606306%
+  orientation = mid-centered
+  x = 105
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -2
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -48
+}
+
+customization {
+  path = config/performatic/bolt.png
+  orientation = mid-centered
+  x = -11
+  width = 20
+  action = addtexture
+  actionid = 24795ed6-a578-4576-ab73-974b9dedd18c1685923730443
+  y = -145
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/6fef38976956e264a8fe0600525e53e6604e7a31d0ef1176ebc1457646a00810
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = -159
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 64189ecb-7e7c-4e89-aafd-788f660a99371685923926900
+  y = -44
+  playername = SHXXRKIE
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://www.lunapixel.studio/discord%btnaction_splitter_fm%
+  x = -124
+  width = 19
+  action = addbutton
+  actionid = 4c66f197-803c-4095-8e7e-f42fd858d1321685924215334
+  y = -25
+  label = 
+  height = 20
+}
+
+customization {
+  path = config/performatic/discord.png
+  orientation = mid-centered
+  x = -123
+  width = 16
+  action = addtexture
+  actionid = a569d449-1f78-4d02-9f56-91f0429bc3fb1685924370825
+  y = -23
+  height = 16
+}
+
+customization {
+  path = config/performatic/exit.png
+  orientation = mid-centered
+  x = -99
+  width = 15
+  action = addtexture
+  actionid = a589b654-7985-4bf7-b1b4-79ee9646c9791685925585486
+  y = 24
+  height = 15
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.class_436%btnaction_splitter_fm%
+  x = 4
+  width = 98
+  action = addbutton
+  actionid = 9749f0cf-85f3-457c-a8fd-c89fd09abb931693547045316
+  y = -25
+  label = Share World
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = opengui;net.minecraft.class_5522%btnaction_splitter_fm%
+  x = 4
+  width = 98
+  action = addbutton
+  actionid = 2cf7f3aa-f3b7-43ef-9be8-a67ae5d3f9ad1693547182603
+  y = -2
+  label = Player Reporting
+  height = 20
+}
+
+customization {
+  identifier = %id=504330%
+  action = hidebutton
+}
+

@@ -1,0 +1,296 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mangrove
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = mid-centered
+  x = 103
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=604346%
+  orientation = bottom-centered
+  x = -28
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 103
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttondescription
+  description = Accessibility
+}
+
+customization {
+  identifier = %id=376358%
+  orientation = top-right
+  x = -24
+  action = movebutton
+  y = 4
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 26
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=604310%
+  orientation = top-left
+  x = 3
+  action = movebutton
+  y = 3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 72860cb2-61d4-42d7-a041-4e0949f8488f1685821703343
+  y = 319
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 703db131-bde1-489a-b132-4f22f35e68ad1685821703352
+  y = 182
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = c597eab8-8927-4eac-8b10-ee442a7e719f1685821703352
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = 0dde2ea8-aa99-470f-b91f-178b8afec9511685821703352
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Developed by Luna Pixel Studios
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 1
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 60d219eb-0f9c-4c56-a5e4-1b19a2ac55e71685821725939
+  y = -13
+  alignment = left
+  height = 13
+}
+
+customization {
+  path = config/performatic/logo_full.png
+  orientation = mid-centered
+  x = -128
+  width = 257
+  action = addtexture
+  actionid = b10ec143-ddbc-4f1d-813e-0671091d5e251685823309726
+  y = -140
+  height = 130
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.com/invite/9S5tfrY4Fr%btnaction_splitter_fm%
+  x = -124
+  width = 20
+  action = addbutton
+  actionid = dcbe6dd2-3499-4e21-8e00-355e5f0c9dbb1685928966565
+  y = 26
+  description = Join Our Discord!
+  label = 
+  height = 20
+}
+
+customization {
+  path = config/performatic/discord.png
+  orientation = mid-centered
+  x = -123
+  width = 17
+  action = addtexture
+  actionid = 8d0f903d-6c59-4ac3-aca8-b144d44e1a261685929092464
+  y = 28
+  height = 17
+}
+
+customization {
+  path = config/performatic/exit.png
+  orientation = mid-centered
+  x = 83
+  width = 14
+  action = addtexture
+  actionid = 10d920c5-f0ec-45fa-a43a-58f813d3f50c1685930435230
+  y = 65
+  height = 15
+}
+
+customization {
+  path = config/performatic/settings.png
+  orientation = mid-centered
+  x = -98
+  width = 15
+  action = addtexture
+  actionid = afac9698-f78e-458e-bc26-275e3e6a568f1685930492392
+  y = 65
+  height = 15
+}
+
+customization {
+  path = config/performatic/bolt.png
+  orientation = mid-centered
+  x = 103
+  width = 20
+  action = addtexture
+  actionid = ea4debb3-5fe4-4f8d-9c92-687e594326c91692922811468
+  y = 26
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://bisecthosting.com/LunaPixel%btnaction_splitter_fm%
+  description = Offers much more features than self hosting
+  label = Bisect Server Hosting
+  loopbackgroundanimations = true
+  hoverlabel = 25% OFF with CODE: "LunaPixel"
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = 3f07bdf0-e6ad-4845-905b-0a28eda596351693547533539
+  y = 26
+  height = 20
+}
+

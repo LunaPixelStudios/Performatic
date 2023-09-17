@@ -1,0 +1,105 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_436
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=345100%
+  orientation = mid-centered
+  x = -158
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=505100%
+  orientation = mid-centered
+  x = -1
+  action = movebutton
+  y = -64
+}
+
+customization {
+  identifier = %id=425160%
+  orientation = mid-centered
+  x = -75
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=345972%
+  orientation = mid-centered
+  x = -76
+  action = movebutton
+  y = 54
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttonlabel
+  value = Start Public World
+}
+
+customization {
+  identifier = %id=345972%
+  action = setbuttondescription
+  description = After starting, an IP address will appear in the chat.%n%%n%Any player may join to your world using that IP.
+}
+
+customization {
+  identifier = %id=505972%
+  orientation = mid-centered
+  x = -76
+  action = movebutton
+  y = 78
+}
+
+customization {
+  orientation = mid-centered
+  copy_client_player = true
+  slim = false
+  auto_skin = false
+  scale = 30
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/8e0c00a3c8874e229b8226fdd175e67be7a0d34ab123622e6e5d23c6b7237496
+  showname = true
+  crouching = false
+  follow_mouse = true
+  x = -131
+  width = 18
+  parrot_left_shoulder = false
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = c00bdb5d-dab5-47d1-a885-ff3247131e8a1685925874293
+  y = 11
+  playername = ElocinDev
+  bodyrotationx = 0.0
+  parrot = false
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+}
+
+customization {
+  path = config/performatic/earth.png
+  orientation = mid-centered
+  x = -74
+  width = 17
+  action = addtexture
+  actionid = 804f2cd8-55a5-4d18-92ee-5d6efaff4e391685925957299
+  y = 56
+  height = 15
+}
+

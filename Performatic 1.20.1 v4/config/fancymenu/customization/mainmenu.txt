@@ -19,6 +19,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 3
+}
+
+customization {
   identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
   orientation = mid-centered
   x = 103
@@ -62,6 +70,14 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -20
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
   orientation = mid-centered
   x = -100
@@ -85,44 +101,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-centered
-  x = -124
-  action = movebutton
-  y = 62
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttondescription
-  description = Language
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = 3
-}
-
-customization {
-  identifier = %id=604346%
-  orientation = bottom-centered
-  x = -28
-  action = movebutton
-  y = -24
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -20
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
   orientation = mid-centered
   x = 2
@@ -136,6 +114,20 @@ customization {
   x = 3
   action = movebutton
   y = 3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 62
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = Language
 }
 
 customization {
@@ -287,5 +279,10 @@ customization {
   actionid = 3f07bdf0-e6ad-4845-905b-0a28eda596351693547533539
   y = 26
   height = 20
+}
+
+customization {
+  identifier = %id=604334%
+  action = hidebutton
 }
 
